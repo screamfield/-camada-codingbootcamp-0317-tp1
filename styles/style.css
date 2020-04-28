@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Bignoodletitling";
+    src: url("../fonts/bignoodletitling/big_noodle_titling.ttf");
+    font-family: "roboto";
+    src: url("../fonts/roboto/Roboto-Regular.ttf");
+}
+body{
+    background-color: #e71d36;
+}
+.titulo { text-transform: uppercase;
+    font-size: 40px ;
+    color: #011627;
+    letter-spacing: 4px;
+    font-family: "Bignoodletitling";
+}
+.subtitulo { text-transform: uppercase;
+    font-size: large;
+    letter-spacing: 4px;
+    color: #011627;
+    font-family: "roboto";
+}
+.textocomun {
+    font-size: medium;
+    color: #fdfffc;
+}
+#wikipedia { font-style: italic;
+    color: #fdfffc;
+}
+li  {font-style: bold;
+    color: #fdfffc;
+}
+a {
+    color: #ff9f1c;
+}
+#estafa  { color: rgba(169, 169, 169, 0.500);
+}
+.imagen1 {
+    display: inline-block;
+    border-radius: 9px 9px 9px 9px;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    border: 0px solid #000000;
+    -webkit-box-shadow: 12px 13px 5px -6px rgba(0,0,0,0.34);
+    -moz-box-shadow: 12px 13px 5px -6px rgba(0,0,0,0.34);
+    box-shadow: 13px 13px 5px -6px rgba(0,0,0,0.34);
+}
+.secciones{
+ background-color: #2ec4b6;
+ display: block;
+ align-self: stretch;
+ text-align: center;
+}
+ .centro{
+    display: block;
+    text-align: center;
+   background-color: #e71d36;
+}
+header{
+    border: 4px dashed #fdfffc;
+    display: inline-block;
+}
+footer{
+    border: 4px dashed #fdfffc;
+    display: inline-block;
+}
+
+
+
