@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Bignoodletitling";
-    src: url("../fonts/bignoodletitling/big_noodle_titling.ttf");
-    font-family: "roboto";
+    src: url("../fonts/bignoodletitling/big_noodle_titling.ttf");}
+    @font-face { font-family: "roboto";
     src: url("../fonts/roboto/Roboto-Regular.ttf");
 }/* por alguna razon no puedo hacerla funcionar! */
 body{
@@ -49,6 +49,7 @@ a {
  display: block;
  align-self: stretch;
  text-align: center;
+ margin: 7px ;
 }
  .centro{
     display: block;
